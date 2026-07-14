@@ -8,7 +8,8 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// DATABASE CONNECTION
+
+app.use(express.static('.')); // DATABASE CONNECTION
 // When you deploy to Supabase/Render, you will put your real connection string here
 const pool = new Pool({
     connectionString: process.env.DATABASE_URL, 
