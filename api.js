@@ -1,5 +1,5 @@
 // Livingstone International School - API Utility
-const API_BASE_URL = "https://livingstone-school.onrender.com/api"; // You will change this after deploying backend
+const API_BASE_URL = "https://livingstone-backend.onrender.com/api"; // You will change this after deploying backend
 
 const api = {
     // Helper to get the saved token
